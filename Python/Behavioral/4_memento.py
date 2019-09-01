@@ -1,5 +1,9 @@
 """
-Provides the ability to restore an object to its previous state.
+# - What is this pattern about? - #
+ * Provides the ability to restore an object to its previous state.
+
+# - WHen it is useful? - #
+ * In creation of transactional-like functionalities.
 """
 
 from copy import copy, deepcopy

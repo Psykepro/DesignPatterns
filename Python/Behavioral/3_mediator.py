@@ -1,8 +1,9 @@
 """
-Objects in a system communicate through a Mediator instead of directly with each other.
-This reduces the dependencies between communicating objects, thereby reducing coupling.
-
-Encapsulates how a set of objects interact.
+# - What is this pattern about? - #
+* Objects in a system communicate through a Mediator instead of directly with
+  each other. This reduces the dependencies between communicating objects,
+  thereby reducing coupling.
+* Encapsulates how a set of objects interact.
 """
 
 

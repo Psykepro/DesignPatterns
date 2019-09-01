@@ -4,8 +4,21 @@
 @Source: https://www.tutorialspoint.com
 
 # - What is this pattern about? - #
-A Factory is an object for creating other objects.
-Creates objects without having to specify the exact class.
+ * When a Method returns one of several possible classes that share a common super
+   class.
+    ** Create a new enemy in a game.
+    ** Random number generator picks a number assigned to a specific enemy.
+    ** The factory returns the enemy associated with that number.
+ * The class is chosen at run time.
+ * A Factory is an object for creating other objects.
+ * Creates objects without having to specify the exact class.
+
+# - When to Use a Factory Pattern?
+ * When you don't know ahead of time what class object you need
+ * When all of the potential classes are in the same subclass hierarchy
+ * To centralize class selection code
+ * When you don't want the user to have to know every subclass
+ * To encapsulate object creation
 """
 
 

@@ -1,9 +1,12 @@
 """
-The command pattern is handy in situations when, for some reason, we need to
-start by preparing what will be executed and then to execute it when needed.
-The advantage is that encapsulating actions in such a way enables Python
-developers to add additional functionalities related to the executed actions,
-such as undo/redo, or keeping a history of actions and the like.
+# - What is this pattern about? - #
+ * The command pattern is handy in situations when, for some reason, we need to
+   start by preparing what will be executed and then to execute it when needed.
+
+# - Advantages of Command Pattern - #
+ * The advantage is that encapsulating actions in such a way enables Python
+   developers to add additional functionalities related to the executed actions,
+   such as undo/redo, or keeping a history of actions and the like.
 """
 
 from .. import utilities

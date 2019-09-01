@@ -2,12 +2,12 @@
 @Source: https://www.tutorialspoint.com
 
 # - What is this pattern about? - #
-Builder Pattern is a unique design pattern which helps in building complex
-object using simple objects and uses an algorithmic approach. This design
-pattern comes under the category of creational pattern. In this design pattern,
-a builder class builds the final object in step-by-step procedure. This
-builder is independent of other objects.
-Decouples the creation of a complex object and its representation.
+ * Builder Pattern is a unique design pattern which helps in building complex
+   object using simple objects and uses an algorithmic approach. This design
+   pattern comes under the category of creational pattern.
+ * In this design pattern, a builder class builds the final object in
+   step-by-step procedure. This builder is independent of other objects.
+ * Decouples the creation of a complex object and its representation.
 
 # - Advantages of Builder Pattern - #
  * It provides clear separation and a unique layer between construction and

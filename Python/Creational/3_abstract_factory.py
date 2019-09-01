@@ -1,7 +1,24 @@
 """
 @Source: https://sourcemaking.com
-Provide an interface for creating families of related or dependent
-objects without specifying their concrete classes.
+
+# - What is this pattern about? - #
+ * It is like a factory, but everything is encapsulated.
+    ** The method that orders the objects.
+    ** The factories that build the object
+    ** The final objects
+    ** The final objects contain objects that use the Strategy Pattern
+        *** Composition: Object class fields are other objects
+ * Provide an interface for creating families of related or dependent
+ * objects without specifying their concrete classes.
+
+# - What you can do with an Abstract Factory - #
+ * Allows you to create families of related objects without specifying a
+   concrete class.
+ * Use when you have many objects that can be added, or changed dynamically
+   during runtime.
+ * You can model anything you can imagine and have those objects interact
+   through common interfaces.
+ * The Bad Thing is thar can get very complicated.
 """
 
 import abc
