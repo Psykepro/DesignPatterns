@@ -2,7 +2,7 @@
 # - What is this pattern about? - #
  * Provides the ability to restore an object to its previous state.
 
-# - WHen it is useful? - #
+# - When it is useful? - #
  * In creation of transactional-like functionalities.
 """
 
